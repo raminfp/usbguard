@@ -335,7 +335,11 @@ usbguard_SOURCES=\
 	src/CLI/usbguard-set-parameter.hpp \
 	src/CLI/usbguard-set-parameter.cpp \
 	src/CLI/usbguard-get-parameter.hpp \
-	src/CLI/usbguard-get-parameter.cpp
+	src/CLI/usbguard-get-parameter.cpp \
+	src/CLI/usbguard-add-user.cpp \
+	src/CLI/usbguard-add-user.hpp \
+	src/CLI/usbguard-remove-user.cpp \
+	src/CLI/usbguard-remove-user.hpp
 
 usbguard_CPPFLAGS=\
 	-fPIE \
